@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEF92D122536846C00D20364 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF92D112536846C00D20364 /* AppDelegate.swift */; };
+		AEF92D142536846C00D20364 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF92D132536846C00D20364 /* SceneDelegate.swift */; };
+		AEF92D162536846C00D20364 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF92D152536846C00D20364 /* ViewController.swift */; };
+		AEF92D192536846C00D20364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF92D172536846C00D20364 /* Main.storyboard */; };
+		AEF92D1B2536847000D20364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF92D1A2536847000D20364 /* Assets.xcassets */; };
+		AEF92D1E2536847000D20364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF92D1C2536847000D20364 /* LaunchScreen.storyboard */; };
+		AEF92D292536847000D20364 /* YelpyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF92D282536847000D20364 /* YelpyTests.swift */; };
+		AEF92D342536847000D20364 /* YelpyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF92D332536847000D20364 /* YelpyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEF92D252536847000D20364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF92D062536846C00D20364 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF92D0D2536846C00D20364;
+			remoteInfo = Yelpy;
+		};
+		AEF92D302536847000D20364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF92D062536846C00D20364 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF92D0D2536846C00D20364;
+			remoteInfo = Yelpy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEF92D0E2536846C00D20364 /* Yelpy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yelpy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF92D112536846C00D20364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEF92D132536846C00D20364 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AEF92D152536846C00D20364 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEF92D182536846C00D20364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEF92D1A2536847000D20364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEF92D1D2536847000D20364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEF92D1F2536847000D20364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF92D242536847000D20364 /* YelpyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelpyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF92D282536847000D20364 /* YelpyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpyTests.swift; sourceTree = "<group>"; };
+		AEF92D2A2536847000D20364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF92D2F2536847000D20364 /* YelpyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelpyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF92D332536847000D20364 /* YelpyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpyUITests.swift; sourceTree = "<group>"; };
+		AEF92D352536847000D20364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEF92D0B2536846C00D20364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF92D212536847000D20364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF92D2C2536847000D20364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEF92D052536846C00D20364 = {
+			isa = PBXGroup;
+			children = (
+				AEF92D102536846C00D20364 /* Yelpy */,
+				AEF92D272536847000D20364 /* YelpyTests */,
+				AEF92D322536847000D20364 /* YelpyUITests */,
+				AEF92D0F2536846C00D20364 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEF92D0F2536846C00D20364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEF92D0E2536846C00D20364 /* Yelpy.app */,
+				AEF92D242536847000D20364 /* YelpyTests.xctest */,
+				AEF92D2F2536847000D20364 /* YelpyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEF92D102536846C00D20364 /* Yelpy */ = {
+			isa = PBXGroup;
+			children = (
+				AEF92D112536846C00D20364 /* AppDelegate.swift */,
+				AEF92D132536846C00D20364 /* SceneDelegate.swift */,
+				AEF92D152536846C00D20364 /* ViewController.swift */,
+				AEF92D172536846C00D20364 /* Main.storyboard */,
+				AEF92D1A2536847000D20364 /* Assets.xcassets */,
+				AEF92D1C2536847000D20364 /* LaunchScreen.storyboard */,
+				AEF92D1F2536847000D20364 /* Info.plist */,
+			);
+			path = Yelpy;
+			sourceTree = "<group>";
+		};
+		AEF92D272536847000D20364 /* YelpyTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEF92D282536847000D20364 /* YelpyTests.swift */,
+				AEF92D2A2536847000D20364 /* Info.plist */,
+			);
+			path = YelpyTests;
+			sourceTree = "<group>";
+		};
+		AEF92D322536847000D20364 /* YelpyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEF92D332536847000D20364 /* YelpyUITests.swift */,
+				AEF92D352536847000D20364 /* Info.plist */,
+			);
+			path = YelpyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEF92D0D2536846C00D20364 /* Yelpy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF92D382536847000D20364 /* Build configuration list for PBXNativeTarget "Yelpy" */;
+			buildPhases = (
+				AEF92D0A2536846C00D20364 /* Sources */,
+				AEF92D0B2536846C00D20364 /* Frameworks */,
+				AEF92D0C2536846C00D20364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yelpy;
+			productName = Yelpy;
+			productReference = AEF92D0E2536846C00D20364 /* Yelpy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEF92D232536847000D20364 /* YelpyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF92D3B2536847000D20364 /* Build configuration list for PBXNativeTarget "YelpyTests" */;
+			buildPhases = (
+				AEF92D202536847000D20364 /* Sources */,
+				AEF92D212536847000D20364 /* Frameworks */,
+				AEF92D222536847000D20364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF92D262536847000D20364 /* PBXTargetDependency */,
+			);
+			name = YelpyTests;
+			productName = YelpyTests;
+			productReference = AEF92D242536847000D20364 /* YelpyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEF92D2E2536847000D20364 /* YelpyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF92D3E2536847000D20364 /* Build configuration list for PBXNativeTarget "YelpyUITests" */;
+			buildPhases = (
+				AEF92D2B2536847000D20364 /* Sources */,
+				AEF92D2C2536847000D20364 /* Frameworks */,
+				AEF92D2D2536847000D20364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF92D312536847000D20364 /* PBXTargetDependency */,
+			);
+			name = YelpyUITests;
+			productName = YelpyUITests;
+			productReference = AEF92D2F2536847000D20364 /* YelpyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEF92D062536846C00D20364 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AEF92D0D2536846C00D20364 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					AEF92D232536847000D20364 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = AEF92D0D2536846C00D20364;
+					};
+					AEF92D2E2536847000D20364 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = AEF92D0D2536846C00D20364;
+					};
+				};
+			};
+			buildConfigurationList = AEF92D092536846C00D20364 /* Build configuration list for PBXProject "Yelpy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEF92D052536846C00D20364;
+			productRefGroup = AEF92D0F2536846C00D20364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEF92D0D2536846C00D20364 /* Yelpy */,
+				AEF92D232536847000D20364 /* YelpyTests */,
+				AEF92D2E2536847000D20364 /* YelpyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEF92D0C2536846C00D20364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF92D1E2536847000D20364 /* LaunchScreen.storyboard in Resources */,
+				AEF92D1B2536847000D20364 /* Assets.xcassets in Resources */,
+				AEF92D192536846C00D20364 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF92D222536847000D20364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF92D2D2536847000D20364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEF92D0A2536846C00D20364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF92D162536846C00D20364 /* ViewController.swift in Sources */,
+				AEF92D122536846C00D20364 /* AppDelegate.swift in Sources */,
+				AEF92D142536846C00D20364 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF92D202536847000D20364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF92D292536847000D20364 /* YelpyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF92D2B2536847000D20364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF92D342536847000D20364 /* YelpyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEF92D262536847000D20364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF92D0D2536846C00D20364 /* Yelpy */;
+			targetProxy = AEF92D252536847000D20364 /* PBXContainerItemProxy */;
+		};
+		AEF92D312536847000D20364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF92D0D2536846C00D20364 /* Yelpy */;
+			targetProxy = AEF92D302536847000D20364 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEF92D172536846C00D20364 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF92D182536846C00D20364 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEF92D1C2536847000D20364 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF92D1D2536847000D20364 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEF92D362536847000D20364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEF92D372536847000D20364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEF92D392536847000D20364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LHDDJ5HP7;
+				INFOPLIST_FILE = Yelpy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kwesi.Yelpy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEF92D3A2536847000D20364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LHDDJ5HP7;
+				INFOPLIST_FILE = Yelpy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kwesi.Yelpy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEF92D3C2536847000D20364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LHDDJ5HP7;
+				INFOPLIST_FILE = YelpyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kwesi.YelpyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yelpy.app/Yelpy";
+			};
+			name = Debug;
+		};
+		AEF92D3D2536847000D20364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LHDDJ5HP7;
+				INFOPLIST_FILE = YelpyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kwesi.YelpyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yelpy.app/Yelpy";
+			};
+			name = Release;
+		};
+		AEF92D3F2536847000D20364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LHDDJ5HP7;
+				INFOPLIST_FILE = YelpyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kwesi.YelpyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yelpy;
+			};
+			name = Debug;
+		};
+		AEF92D402536847000D20364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LHDDJ5HP7;
+				INFOPLIST_FILE = YelpyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kwesi.YelpyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yelpy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEF92D092536846C00D20364 /* Build configuration list for PBXProject "Yelpy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF92D362536847000D20364 /* Debug */,
+				AEF92D372536847000D20364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF92D382536847000D20364 /* Build configuration list for PBXNativeTarget "Yelpy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF92D392536847000D20364 /* Debug */,
+				AEF92D3A2536847000D20364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF92D3B2536847000D20364 /* Build configuration list for PBXNativeTarget "YelpyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF92D3C2536847000D20364 /* Debug */,
+				AEF92D3D2536847000D20364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF92D3E2536847000D20364 /* Build configuration list for PBXNativeTarget "YelpyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF92D3F2536847000D20364 /* Debug */,
+				AEF92D402536847000D20364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEF92D062536846C00D20364 /* Project object */;
+}
